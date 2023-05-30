@@ -1,0 +1,31 @@
+.cw.button {
+  z-index: 2;
+  cursor: pointer;
+}
+.cw.button img {
+  margin: auto 14px;
+  height: 20%;
+}
+.cw.button-animated {
+  animation: callToAction 2s infinite;
+  cursor: pointer;
+  margin: auto 14px;
+  height: 20%;
+}
+@keyframes callToAction {
+  0% {
+    stroke: #462f2f;
+    stroke-width: 1.5px;
+    fill: red;
+  }
+  50% {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    fill: red;
+  }
+  100% {
+    stroke: #b3b3b3;
+    stroke-width: 1.5px;
+    fill: red;
+  }
+}

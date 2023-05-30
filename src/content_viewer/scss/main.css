@@ -1,0 +1,7 @@
+
+*{
+  box-sizing: border-box;
+}
+.d-flex-end {
+  justify-content: flex-end;
+}

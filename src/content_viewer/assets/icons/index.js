@@ -1,0 +1,14 @@
+export { default as play } from "./play.svg";
+export { default as backward } from "./arrow-left.svg";
+export { default as forward } from "./arrow-right.svg";
+export { default as volume } from "./volume.svg";
+export { default as settings } from "./settings.svg";
+export { default as mic } from "./mic.svg";
+export { default as marker } from "./marker.svg";
+export { default as options } from "./indextable.svg";
+export { default as panel } from "./panel.svg";
+export { default as expand } from "./expand.svg";
+export { default as pause } from "./pause.svg";
+export { default as contract } from "./contract.svg";
+export { default as videosegment } from "./videoseg.svg";
+export { default as edit } from "./edit.svg";

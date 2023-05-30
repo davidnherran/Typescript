@@ -1,0 +1,16 @@
+.cviewer__navbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-radius: 0px 0px 17px 17px;
+  color: #ffffff;
+  padding: 0 22px;
+  box-sizing: border-box;
+  z-index: 9;
+}
+.cviewer__navbar h1 {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,46 @@
+
+.Wiselink__button {
+    width: auto;
+    min-height: 40px;
+    font-family: Futura LT;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+    padding: 7px 20px;
+}
+
+.Wiselink__button.disabled {
+    box-shadow: none;
+    cursor: default;
+}
+
+.Wiselink__button.secundary {
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #7263A0;
+    border-radius: 9px;
+    color: #7168A1;
+}
+
+.Wiselink__button.secundary:hover {
+    background: #EFEFEF;
+    cursor: pointer;
+}
+
+.Wiselink__button.primary {
+    color: #ffffff;
+    background: #7263A0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Wiselink__button.primary:hover {
+    background: #483E65;
+    cursor: pointer;
+    border: none;
+}

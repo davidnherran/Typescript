@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.cp.btn {
+  padding: 10px 20px;
+  height: 38px;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+.cp.btn.btn-primary {
+  background-color: var(--bg-primary);
+  color: #333;
+}
+.cp.btn.btn-primary:hover {
+  background-color: var(--bg-primary-hover);
+  color: #333;
+}
+.cp.btn.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.cp.btn.btn-cancel {
+  background-color: transparent;
+  border: solid 1px var(--bg-cancel);
+  color: var(--bg-cancel);
+}
+.cp.btn.btn-cancel:hover {
+  background-color: transparent;
+  border: solid 1px var(--bg-cancel-hover);
+  color: var(--bg-cancel-hover);
+}

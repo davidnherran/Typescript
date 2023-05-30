@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="200.00002"
+   height="37.999992"
+   viewBox="0 0 250.00002 47.49999"
+   preserveAspectRatio="xMidYMid"
+   className="progress-bar-wrapper"
+   aria-label="progress-bar-loading"
+   data-testid="progress-bar-svg"
+   aria-busy="true"
+   role="status"
+   version="1.1"
+   id="svg1109"
+   sodipodi:docname="prog.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1111"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.9865614"
+     inkscape:cx="48.036385"
+     inkscape:cy="99.835412"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1109"
+     showguides="true" />
+  <defs
+     id="defs1103">
+    <clipPath
+       ng-attr-id="{{config.cpid}}"
+       x="0"
+       y="0"
+       width="100"
+       height="100"
+       id="lds-progress-cpid-5009611b8a418">
+      <rect
+         x="0"
+         y="0"
+         width="66.666702"
+         height="100"
+         id="rect1100">
+        <animate
+           attributeName="width"
+           calcMode="linear"
+           values="0;100;100"
+           keyTimes="0;0.5;1"
+           dur="2"
+           begin="0s"
+           repeatCount="indefinite" />
+        <animate
+           attributeName="x"
+           calcMode="linear"
+           values="0;0;100"
+           keyTimes="0;0.5;1"
+           dur="2"
+           begin="0s"
+           repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+  <path
+     fill="none"
+     ng-attr-stroke="{{config.c1}}"
+     stroke-width="7.52429"
+     d="M 218.44303,46.873008 H 31.556975 c -19.899681,0 -30.92998006,-10.31642 -30.92998006,-23.123 v 0 c 0,-12.80659 11.03029906,-23.12301024 30.92998006,-23.12301024 H 218.44303 c 19.89967,0 30.92997,10.31642024 30.92997,23.12301024 v 0 c 0,12.80658 -11.0303,23.123 -30.92997,23.123 z"
+     stroke="#f4cf3b"
+     id="path1105"
+     style="stroke-width:1.25399;stroke-dasharray:none"
+     sodipodi:nodetypes="sssssssss"
+     inkscape:export-filename="path1105.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     ng-attr-fill="{{config.c2}}"
+     ng-attr-clip-path="url(#{{config.cpid}})"
+     d="M 81.3,58.7 H 18.7 C 13.9,58.7 10,54.8 10,50 v 0 c 0,-4.8 3.9,-8.7 8.7,-8.7 h 62.7 c 4.8,0 8.7,3.9 8.7,8.7 v 0 c -0.1,4.8 -4,8.7 -8.8,8.7 z"
+     fill="#f7db6b"
+     clip-path="url(#lds-progress-cpid-5009611b8a418)"
+     id="path1107"
+     transform="matrix(3.0088216,0,0,2.2988506,-25.641999,-91.192527)" />
+</svg>

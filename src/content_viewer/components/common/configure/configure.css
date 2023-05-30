@@ -1,0 +1,23 @@
+.cw_conf_configure {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 400px;
+  overflow-y: scroll;
+  z-index: 2; }
+  .cw_conf_configure::-webkit-scrollbar {
+    display: none; }
+
+.cw_conf_configure__segment {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 6px;
+  border-radius: 12px;
+  padding: 4px 8px; }
+
+.cw_conf_segment__active {
+  background-color: red; }

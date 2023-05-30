@@ -1,0 +1,1 @@
+export type TVariant = "default" | "nbd" | "harmony";

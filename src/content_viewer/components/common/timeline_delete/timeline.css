@@ -1,0 +1,21 @@
+.contentviewer__timeline {
+  height: 10px;
+  display: flex;
+  padding: 0 10px;
+  position: absolute;
+}
+.contentviewer__timeline-lapse {
+  height: 10px;
+}
+.cw_controls__timeline input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background-repeat: no-repeat;
+}
+.cw_controls__timeline input[type="range"]::-moz-range-track {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background-repeat: no-repeat;
+}

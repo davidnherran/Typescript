@@ -1,0 +1,45 @@
+.test_rtf_titles {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 95px;
+    padding: 8px 0px;
+}
+
+.test_rtf_titles_h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ef8043;
+}
+
+.test_rtf_layout {
+    width: 90%;
+    margin: 0px 0px 0px 95px;
+    font-size: 26px;
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test_rtf_layout2 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    /* border-style: solid; */
+    padding: 10px 10px 10px;
+}
+.test_rtf_layout3 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    /* border-style: solid; */
+    padding: 10px 10px 10px;
+}
+
+.test_rtf_buttons {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

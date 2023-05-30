@@ -1,0 +1,27 @@
+.cw_indextable {
+  width: 400px;
+  height: 340px;
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 70px;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+.cw_indextable::-webkit-scrollbar {
+  display: none;
+}
+
+.cw_indextable__segment {
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 6px;
+  border-radius: 12px;
+}
+
+.cw_segment__active {
+  background-color: red;
+}

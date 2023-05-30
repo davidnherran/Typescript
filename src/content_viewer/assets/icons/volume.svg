@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15"
+   height="14.616684"
+   viewBox="0 0 3.9687499 3.867331"
+   version="1.1"
+   id="svg1804"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1806"
+     pagecolor="#494a4b"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs1801" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-0.05070961)">
+    <g
+       style="fill:none"
+       id="g1671"
+       transform="matrix(0.22048611,0,0,0.22048611,0,2.21265e-6)"
+       inkscape:export-filename="g1671.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         d="M 0,5.99998 V 12 h 4 l 5,5 V 0.99998 l -5,5 z m 13.5,3 c 0,-1.77 -1.02,-3.29 -2.5,-4.03 V 13.02 c 1.48,-0.73 2.5,-2.25 2.5,-4.02002 z m -2.5,-8.77 v 2.06 c 2.89,0.86 5,3.54 5,6.71 C 16,12.17 13.89,14.85 11,15.71 v 2.06 c 4.01,-0.91 7,-4.49 7,-8.77002 0,-4.28 -2.99,-7.86 -7,-8.77 z"
+         fill="#ffffff"
+         id="path1662" />
+    </g>
+  </g>
+</svg>

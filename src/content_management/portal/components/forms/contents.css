@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.cp.input__container {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 75px;
+  position: inherit;
+}
+.cp.input__container label {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 10px;
+  position: absolute;
+  transform: translate(14px, -10px);
+  font-size: 14px;
+}
+.cp.input__container input {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 14px;
+  box-sizing: border-box;
+  height: 56px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 100%;
+  font-size: 15px;
+}
+.cp.input__container-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cp.input__file {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 38px;
+  font-family: 'Open Sans', sans-serif;
+}
+.cp.input__file::before {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7db6b;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  content: "Seleccionar portada";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 16px;
+  width: 200px;
+  height: 38px;
+  cursor: pointer;
+}
+.cp.input__file input {
+  opacity: 0;
+  width: 200px;
+  height: 38px;
+  display: inline-block;
+  cursor: pointer;
+}
+.cp.input__file-success {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 38px;
+}
+.cp.input__file-success::before {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7db6b;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  content: "Portada cargada";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 16px;
+  width: 200px;
+  height: 38px;
+  cursor: pointer;
+}
+.cp.input__file-success input {
+  opacity: 0;
+  width: 200px;
+  height: 38px;
+  display: inline-block;
+  cursor: pointer;
+}

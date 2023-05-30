@@ -1,0 +1,1 @@
+export { default as Controls2 } from "./controls";

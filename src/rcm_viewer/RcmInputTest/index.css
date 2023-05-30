@@ -1,0 +1,27 @@
+.principal_rtf {
+    width: 100%;
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* display: flex; */
+    /* flex-direction: row */
+}
+
+.quill_rtf {
+}
+.quill_rtf > p {
+    font-size: 26px;
+}
+
+.ql-container {
+    min-height: 10em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.ql-toolbar {
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: none;
+}

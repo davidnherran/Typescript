@@ -1,0 +1,152 @@
+.principal_rtf {
+  width: 100%;
+  /* border-style: solid; */
+  /* border-color: green; */
+  /* display: flex; */
+  /* flex-direction: row */
+}
+.quill_rtf > p {
+  font-size: 26px;
+}
+
+.ql-container {
+  min-height: 10em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+.ql-toolbar {
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom: none;
+}
+
+.ql-formats button, .ql-formats span {
+  position: relative;
+}
+
+.ql-formats button:hover:after,
+.ql-formats button:active:after,
+.ql-formats button:focus:after,
+.ql-formats span:hover:after,
+.ql-formats span:active:after,
+.ql-formats span:focus:after {
+  min-width: 90px;
+  min-height: fit-content;
+  position: absolute;
+  right: 50%;
+  top: 110%;
+  transform: translate(50%, 0%);
+  z-index: 2;
+  background-color: #277496;
+  font-family: "Futura LT";
+  font-size: 14px;
+text-align: center;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.ql-bold:hover:after,
+.ql-bold:active:after,
+.ql-bold:focus:after {
+  content: 'Bold';
+}
+
+.ql-italic:hover:after,
+.ql-italic:active:after,
+.ql-italic:focus:after {
+  content: 'Italic';
+}
+
+.ql-underline:hover:after,
+.ql-underline:active:after,
+.ql-underline:focus:after {
+  content: 'Underline';
+}
+
+.ql-strike:hover:after,
+.ql-strike:active:after,
+.ql-strike:focus:after {
+  content: 'Strike';
+}
+
+.ql-blockquote:hover:after,
+.ql-blockquote:active:after,
+.ql-blockquote:focus:after {
+  content: 'Blockquote';
+}
+
+.ql-code-block:hover:after,
+.ql-code-block:active:after,
+.ql-code-block:focus:after {
+  content: 'Code block';
+}
+
+.ql-header:hover:after,
+.ql-header:active:after,
+.ql-header:focus:after {
+  content: 'Header';
+}
+
+.ql-list:hover:after,
+.ql-list:active:after,
+.ql-list:focus:after {
+  content: 'List';
+}
+
+.ql-script:hover:after,
+.ql-script:active:after,
+.ql-script:focus:after {
+  content: 'Script';
+}
+
+.ql-indent:hover:after,
+.ql-indent:active:after,
+.ql-indent:focus:after {
+  content: 'Indent';
+}
+
+.ql-link:hover:after,
+.ql-link:active:after,
+.ql-link:focus:after {
+  content: 'Link';
+}
+
+.ql-header.ql-picker:hover:after,
+.ql-header.ql-picker:active:after,
+.ql-header.ql-picker:focus:after {
+  content: 'Label';
+}
+
+.ql-color:hover:after,
+.ql-color:active:after,
+.ql-color:focus:after {
+  content: 'Color';
+}
+
+.ql-background:hover:after,
+.ql-background:active:after,
+.ql-background:focus:after {
+  content: 'Background';
+}
+
+.ql-font:hover:after,
+.ql-font:active:after,
+.ql-font:focus:after {
+  content: 'Font';
+}
+
+.ql-align:hover:after,
+.ql-align:active:after,
+.ql-align:focus:after {
+  content: 'Align';
+}
+
+.ql-clean:hover:after,
+.ql-clean:active:after,
+.ql-clean:focus:after {
+  content: 'Clean';
+}
